@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Caslon Doric';
+    src: url('./SK_Fonts/CaslonDoric-Light.woff2') format('woff2'),
+        url('./SK_Fonts/CaslonDoric-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: 'Caslon Doric';
+    src: url('./SK_Fonts/CaslonDoric-Hairline.woff2') format('woff2'),
+        url('./SK_Fonts/CaslonDoric-Hairline.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'Caslon Doric';
+  src: url('./SK_Fonts/CaslonDoric-Thin.woff2') format('woff2'),
+      url('./SK_Fonts/CaslonDoric-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Caslon Doric';
+  src: url('./SK_Fonts/CaslonDoric-Regular.woff2') format('woff2'),
+      url('./SK_Fonts/CaslonDoric-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {box-sizing:border-box}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+section .opening-block {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.necker {
+  background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068903/Necker%20island%20LR/DJI_0710_k6ooqk.jpg");
+}
+
+.tequila {
+  background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068843/Mexico%20LR/DJI_0747-web_jayvj7.jpg");
+}
+
+.amazon {
+  background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068718/Amazon%20LR/DJI_0744_m3x2ew.jpg");
+}
+
+.tea {
+  background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639502871/Overview/GettyImages-1289868586-1_kg1emt.jpg");
+}
+
+section .down-link {
+    position: absolute;
+    z-index: 10;
+    bottom: 30px;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'Caslon Doric';
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+section .down-link img {
+    width: 40px;
+    margin: 10px auto 0 auto;
+  }
+
+section .opening-block h1 {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* padding-bottom: 6.7vw; */
+    font-family: 'Caslon Doric';
+    font-weight: 100;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+section h3 {
+    font-family: 'caslon Doric';
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 120px;
+    margin-bottom: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+}
+
+section h2 {
+    font-family: 'caslon Doric';
+    font-size: 4vw;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+section h4 {
+    font-family: 'caslon Doric';
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #7A91A5;
+    letter-spacing: 0.6px;
+}
+
+section h6 {
+    font-family: 'caslon Doric';
+    font-size: 32px;
+    font-weight: 200;
+    color: #7A91A5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex-basis: 30%;
+}
+
+section .grid-wrapper {
+    width: 70%;
+    margin: 0 100px 0 auto;
+}
+
+section .three-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 40px
+}
+
+section .three-column div { 
+    flex-basis: 30%;
+
+}
+
+section .three-column p { 
+    font-family: 'caslon Doric';
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+    flex-basis: 30%;
+    letter-spacing: 0.6px; 
+}
+
+section .small-line img{
+    margin-top: 20px;
+    width: 40px;
+}
+
+section .photo-slider-block {
+    height: 85vh;
+    width: 100vw;
+    background-color: black;
+    padding-left: 23%;
+    overflow: hidden;
+}
+
+  h5 {
+      color: white;
+      font-family: 'Caslon Doric';
+      font-weight: 300;
+      letter-spacing: 1.2px;
+      writing-mode: vertical-rl;
+      margin: -65vh 0 0 -17%
+  }
+
+  iframe {
+    
+    position: absolute;
+    object-fit: fill;
+    margin: 0 0 auto auto
+  }
+
+  section .photo-slider-block-2 {
+    height: 43.3vw;
+    width: 100vw;
+    background-color: black;
+    padding-left: 23%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+h8{
+  color: white;
+  font-family: 'Caslon Doric';
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  writing-mode: vertical-rl;
+  font-size: 24px;
+  position: absolute;
+  text-align: center;
+  bottom: 5%;
+  top: 5%;
+  font-size: 13px;
+  left: 10%;
+}
+  
+
+  main {
+    height: 100%;;
+  }
+
+footer {    
+    font-family: 'caslon Doric';
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    width: calc(100vw - 200px);
+    border-bottom: 1.5px solid #7A91A6;
+    margin: 0 auto 60px auto;
+    justify-content: space-between;
+    letter-spacing: 1.2px;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 15px;
+  }
+
+  footer p{
+      margin-top: 0;
+      display: block;
+      margin-bottom: 0;
+  }
+
+  footer div:first-of-type {
+    flex-basis: 50%;
+      text-decoration: none;
+  }
+
+  footer div:last-of-type {
+    flex-basis: 25%;
+      text-decoration: none;
+  }
+
+  footer .all-projects-link {
+    text-align: left;
+    display: block;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: 1px underline;
+  }
+
+  footer div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  @media screen and (max-width: 600px) {
+   
+      section .opening-block h1 {
+      font-size: 16vw;
+    }
+
+    section h2 {
+    font-size: 13vw;
+    }
+
+    section .grid-wrapper {
+      width: 100%;
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+
+    section h3 {
+      font-size: 13px;
+      font-weight: normal;
+      padding-top: 100px;
+    }
+
+    section h4 {
+      font-size: 13px;
+      font-weight: normal;
+      margin-bottom: 35px;
+
+    }
+
+    .small-line {
+      display: none;
+    }
+
+    section .three-column {
+      flex-direction: column;
+      margin-bottom: 20px;
+      margin-top:20px;
+    }
+
+    section .photo-slider-block {
+      height: 60vw;
+      padding-left: 0px;
+    }
+
+    section .photo-slider-block-2 {
+      padding: 0;
+      height: 56vw;
+    }
+
+    .slideshow-container {
+      height: 280px;
+    }
+
+    .mySlides1 {
+    }
+    
+    .mySlides2 {
+    }
+
+    .mySlides1 img {
+      min-height: 250px;   
+    }
+
+    .mySlides2 img {
+      min-height: 250px;   
+    }
+
+    section h6 {
+      font-weight: 100;
+    }
+
+    .numbertext {
+      bottom: 29px;
+      font-size: 12px;
+    }
+
+    .prev, .next {
+      top: 30vw;
+    }
+
+    h5 {
+      display: none;
+    }
+
+    h8 {
+      display: none;
+    }
+
+
+    footer {  
+      flex-direction: column;
+      width: calc(100vw - 80px);
+      flex-wrap: wrap;
+      border-bottom: 0px solid #7A91A6;
+      padding-top: 40px;
+    }
+
+    footer .all-projects-link {
+      flex-basis: 0.5;
+    }
+
+    footer div:last-of-type {
+      border-top: 2px solid #7A91A6;
+      padding-top: 20px;
+      margin-top: 20px;
+    }
+
+    footer p {
+      flex-basis: 0.5;
+    }
+
+    section .three-column p {
+      margin-bottom: 0px;
+    }
+
+  }
+
+  
