@@ -240,7 +240,7 @@ iframe {
     }
 
     section:nth-of-type(3) {
-      background-image: url("./SK_Images/Travel\ website\ 06.jpg");
+      background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639572967/Travel_website_06_rldksz.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
@@ -327,7 +327,7 @@ iframe {
     }
 
     .pseudo-section:first-of-type {
-      background-image: url("/SK_Images/Travel\ website\ 06.jpg");
+      background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639572967/Travel_website_06_rldksz.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; 
@@ -410,7 +410,7 @@ iframe {
     }
 
     .pseudo-section:nth-of-type(2) {
-      background-image: url("/SK_Images/Travel\ website\ 07.jpg");
+      background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639572967/Travel_website_07_epyn0s.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; 
@@ -428,7 +428,7 @@ iframe {
 
 
     .pseudo-section:nth-of-type(3) {
-      background-image: url("/SK_Images/Travel\ website\ 06.jpg");
+      background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639572967/Travel_website_06_rldksz.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center; 
@@ -491,7 +491,7 @@ iframe {
     }
 
     section:last-of-type .half-page:first-of-type {
-      background-image: url("/SK_Images/Travel\ website\ 05.jpg");
+      background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639572967/Travel_website_05_yu5lr4.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       flex-direction: column;
