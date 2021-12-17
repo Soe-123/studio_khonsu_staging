@@ -777,6 +777,7 @@ iframe {
         background-image: none;
         background-color: white;
         min-height: auto;
+        height: 300vh;
         padding-top: 120px;
         padding-bottom: 60px;
       }
