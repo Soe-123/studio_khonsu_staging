@@ -440,7 +440,7 @@ iframe {
     }
 
     section:nth-of-type(5) {
-      height: 300vh !important;
+      min-height: 300vh;
     }
 
     section:nth-of-type(5)  .down-link{
