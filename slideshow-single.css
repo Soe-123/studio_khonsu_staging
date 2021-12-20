@@ -25,6 +25,40 @@
     object-position: 50% 50%;
  }
 
+ .mySlides1 {
+  opacity: 0;
+  transition: opacity 0.25s;
+  position: absolute;
+}
+
+.mySlides1.active {
+  opacity: 1;
+}
+
+
+.mySlides1 img {
+  min-height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.mySlides2 {
+  opacity: 0;
+  transition: opacity 0.25s;
+  position: absolute;
+}
+
+.mySlides2.active {
+  opacity: 1;
+}
+
+
+.mySlides2 img {
+  min-height: 100vh;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -91,6 +125,14 @@
   @media screen and (max-width: 600px) {
 
     .mySlides img {
+        min-height: 250px;   
+      }
+
+    .mySlides1 img {
+        min-height: 250px;   
+      }
+
+    .mySlides2 img {
         min-height: 250px;   
       }
 

@@ -18,7 +18,7 @@ function showSlides(n, no) {
     slideIndex[no] = x.length
   }
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+    x[i].classList.remove("active");
   }
-  x[slideIndex[no]-1].style.display = "block";
+  x[slideIndex[no]-1].classList.add("active");
 } 
