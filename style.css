@@ -545,6 +545,7 @@ iframe {
       align-items: center;
       justify-content: center;
       padding: 5%;
+      position: relative;
     }
 
     .contact p{
@@ -700,14 +701,37 @@ iframe {
       text-align: center;
     }
 
+    .copyright-footer {
+      position: absolute;
+      bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    .instagram-img {
+      display: inline-block;
+      width: 25px;
+      margin-right: 10px;
+    }
+
+    .instagram {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 25px;
+    }
+
     section:last-of-type .half-page p {
       flex-basis: content;
     }
+
+    
 
     footer {
       width: 100vw;
       padding: 0 180px;
       border-bottom: 2px solid #7A91A6;
+
     }
 
   
