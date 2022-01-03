@@ -34,7 +34,30 @@
   font-display: swap;
 }
 
-* {box-sizing:border-box}
+* {
+  box-sizing:border-box
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(190, 190, 190) rgb(255, 255, 255);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(190, 190, 190);
+  border-radius: 10px;
+  border: 5px solid rgb(255, 255, 255);
+}
 
 html {
   height: 100%;
@@ -46,6 +69,8 @@ body {
       height: 100%;
       overflow-y:hidden;
 }
+
+
 
 img {
     max-width: 100%;
@@ -217,17 +242,20 @@ iframe {
     .horizontal-scroll {
       display: flex;
       flex-wrap: wrap;
-      height: 800px;
+      height: 650px;
       flex-direction: column;
       overflow-x: scroll;
       overflow-y: hidden;
       width: 100%;
+      justify-content: center;
+      padding-right: 100px;
     }
 
     .horizontal-scroll div {
       margin: 15px 15px 0px 15px;
       display: inline-block;
       max-width: 300px;
+      min-height: 253px;
     }
 
     .horizontal-scroll div a {
@@ -238,12 +266,17 @@ iframe {
 
     .horizontal-scroll p {
       margin: 10px 0 0 0;
+      color: #1a2741;
+    }
+
+    .horizontal-scroll p:last-of-type {
+      margin: 0;
       color: #2D44729B;
     }
 
-    .horizontal-scroll p:hover {
+    /* .horizontal-scroll p:hover {
       color: #0000009b;
-    }
+    } */
 
     section:nth-of-type(3) {
       background-image: url("https://res.cloudinary.com/dtmlnugky/image/upload/c_scale,w_2300/v1639572967/Travel_website_06_rldksz.jpg");
@@ -263,12 +296,13 @@ iframe {
       color: #2D44729B;
       margin: 10px 30px;
       font-size: 14px;
-      font-weight: 300;
+      font-weight: normal;
       line-height: 1.6;
       display: block;
       background-color: rgba(0, 0, 0, 0);
       border: none;
       text-align: left;
+      letter-spacing: 1px;
     }
 
     section:nth-of-type(3) div button:hover {
@@ -646,6 +680,7 @@ iframe {
       padding: 0 180px;
       border-bottom: 2px solid #7A91A6;
     }
+
   
     /* iPad */
     
@@ -696,6 +731,7 @@ iframe {
         height: auto;
         margin-bottom: 120px;
         margin-top: 10px;
+        padding-right: 0;
       }
 
       .horizontal-scroll div {
