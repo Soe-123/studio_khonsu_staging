@@ -4,6 +4,14 @@ var slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
 
+var interval = setInterval(function() {
+  plusSlides(1, 0)
+}, 3000);
+
+var interval = setInterval(function() {
+  plusSlides(1, 1)
+}, 3000);
+
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
 }
