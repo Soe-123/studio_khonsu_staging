@@ -105,10 +105,10 @@ section .opening-block h1 {
 section h3 {
     font-family: 'caslon Doric';
     font-size: 16px;
-    font-weight: 300;
+    font-weight: normal;
     padding-top: 120px;
     margin-bottom: 16px;
-    letter-spacing: 0.6px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 
 }
@@ -119,6 +119,7 @@ section h2 {
     font-weight: 100;
     margin-top: 0;
     margin-bottom: 16px;
+    letter-spacing: 2px;
 }
 
 section h4 {
@@ -128,7 +129,7 @@ section h4 {
     margin-top: 0;
     margin-bottom: 80px;
     color: #7A91A5;
-    letter-spacing: 0.6px;
+    letter-spacing: 2px;
 }
 
 section h6 {
@@ -166,6 +167,7 @@ section .three-column p {
     color: #707070;
     flex-basis: 30%;
     letter-spacing: 0.6px; 
+    line-height: 1.4;
 }
 
 section .small-line img{
@@ -264,8 +266,11 @@ footer {
   }
 
   footer a {
+    color: black;
     text-decoration: none;
   }
+
+
 
   footer a:hover {
     text-decoration: 1px underline;
