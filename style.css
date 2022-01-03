@@ -36,10 +36,15 @@
 
 * {box-sizing:border-box}
 
+html {
+  height: 100%;
+}
 
 body {
       background-color: rgb(0, 0, 0);
       overflow-x: hidden;
+      height: 100%;
+      overflow-y:hidden;
 }
 
 img {
@@ -104,6 +109,7 @@ iframe {
       font-weight: 300;
       text-align: center;
       text-decoration: none;
+      letter-spacing: 3px; 
   }
 
   section .down-link img {
@@ -183,7 +189,7 @@ iframe {
       bottom: 60px;
       width: 100%;
       text-align: left;
-      padding-left: 36px;
+      padding-left: 60px;
       padding-top: 15px;
       line-height: 0.7
     }
@@ -211,7 +217,7 @@ iframe {
     .horizontal-scroll {
       display: flex;
       flex-wrap: wrap;
-      height: 600px;
+      height: 800px;
       flex-direction: column;
       overflow-x: scroll;
       overflow-y: hidden;
@@ -219,7 +225,7 @@ iframe {
     }
 
     .horizontal-scroll div {
-      margin: 15px;
+      margin: 15px 15px 0px 15px;
       display: inline-block;
       max-width: 300px;
     }
@@ -231,7 +237,7 @@ iframe {
     }
 
     .horizontal-scroll p {
-      margin: 20px 0 0 0;
+      margin: 10px 0 0 0;
       color: #2D44729B;
     }
 
@@ -440,11 +446,15 @@ iframe {
     }
 
     section:nth-of-type(5) {
-      min-height: 300vh;
+      min-height: auto;
+      overflow-y: auto;
     }
 
     section:nth-of-type(5)  .down-link{
       color: black;
+      display: block;
+      bottom: 90px;
+      position: relative;
     }
 
     /* Contact Section */
@@ -727,6 +737,7 @@ iframe {
       section:nth-of-type(5) .down-link{
         position: relative;
         display: block;
+        bottom: 30px;
       }
 
       section .index-wrapper div img {
