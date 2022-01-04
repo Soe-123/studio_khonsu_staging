@@ -50,19 +50,19 @@ section .opening-block {
 }
 
 .necker {
-  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068903/Necker%20island%20LR/DJI_0710_k6ooqk.jpg");
+  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/c_scale,w_2300/v1639068903/Necker%20island%20LR/DJI_0710_k6ooqk.jpg");
 }
 
 .tequila {
-  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068843/Mexico%20LR/DJI_0747-web_jayvj7.jpg");
+  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/c_scale,w_2300/v1639068843/Mexico%20LR/DJI_0747-web_jayvj7.jpg");
 }
 
 .amazon {
-  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639068718/Amazon%20LR/DJI_0744_m3x2ew.jpg");
+  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/c_scale,w_2300/v1639068718/Amazon%20LR/DJI_0744_m3x2ew.jpg");
 }
 
 .tea {
-  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/v1639502871/Overview/GettyImages-1289868586-1_kg1emt.jpg");
+  background-image: radial-gradient( rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0)), url("https://res.cloudinary.com/dtmlnugky/image/upload/q_50/v1639502871/Overview/GettyImages-1289868586-1_kg1emt.jpg");
 }
 
 section .down-link {
