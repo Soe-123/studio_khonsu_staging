@@ -6,11 +6,11 @@ showSlides(1, 1);
 
 var interval = setInterval(function() {
   plusSlides(1, 0)
-}, 3000);
+}, 5000);
 
 var interval = setInterval(function() {
   plusSlides(1, 1)
-}, 3000);
+}, 5000);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);

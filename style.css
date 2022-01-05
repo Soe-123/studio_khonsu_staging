@@ -99,12 +99,26 @@ section h1 {
 }
 
 #myVideo {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 113%;
+  max-height: 105%;
+  overflow: hidden;  
+}
+
+section .background-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 113%;
+  max-height: 105%;
+}
+
+.opening-section {
+  overflow: hidden;
 }
 
 
@@ -139,7 +153,7 @@ section h1 {
     /* Hide the images by default */
     .mySlides1 {
       opacity: 0;
-      transition: opacity 0.25s;
+      transition: opacity 1s;
       position: absolute;
     }
 
@@ -150,12 +164,12 @@ section h1 {
     .mySlides1 img {
         min-height: 100vh;
         object-fit: cover;
-        object-position: 50% 50%;
+        object-position: 50% 00%;
     }
 
     .mySlides2 {
       opacity: 0;
-      transition: opacity 0.25s;
+      transition: opacity 1s;
       position: absolute;
     }
 
@@ -392,35 +406,32 @@ section h1 {
       margin: 15px 0;
     }
 
-    section .scrolling-h {
-      height: 120px;
-      opacity: 1;
-      position: relative;
-    }
+    
 
-    section .scrolling-h:after {
-      position: absolute;
-      bottom: 0;  
-      height: 100%;
+  
+
+    .scroll, .scroll-wrap {
+      height: 60px;
       width: 100%;
-      content: "";
-      background: linear-gradient(to top,
-         rgba(255,255,255, 1) 20%, 
-         rgba(255,255,255, 0) 80%
-      );
-      pointer-events: none; /* so the text is still selectable */
-    }
-
-    section .scrolling-h div {
-      height: 120px;
-      overflow: scroll;
+      overflow-y: scroll;
+      margin: 0;
+      position: relative;
       -ms-overflow-style: none;  /* IE and Edge */
       scrollbar-width: none;  /* Firefox */
-      padding-bottom: 40px;
+      
     }
 
-    .scrolling-h-inside::-webkit-scrollbar {
+    /* .gradient-border {
+      height: 60px;
+      background: linear-gradient(rgba(0, 0, 255, 0), rgb(255, 0, 0));
+    } */
+
+    .scroll::-webkit-scrollbar {
       display: none;
+    }
+
+  .scroll-group {
+    position: absolute;
   }
 
     section h4 {
@@ -430,8 +441,7 @@ section h1 {
       font-size: 40px;
       letter-spacing: 2px;
       line-height: 1.35;
-      margin: 0 0 40px 0;
-      padding-right: 4vw;
+      margin:0;
     }
 
     .pseudo-section:nth-of-type(3) h4 {
