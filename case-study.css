@@ -179,6 +179,7 @@ section .photo-slider-block {
     width: 100vw;
     background-color: black;
     display: block;
+    border-bottom: 18px solid black;
 }
 
   h5 {
@@ -283,7 +284,7 @@ footer {
   @media screen and (max-width: 600px) {
    
       section .opening-block h1 {
-      font-size: 16vw;
+      font-size: 12vw;
     }
 
     section h2 {
@@ -292,8 +293,8 @@ footer {
 
     section .grid-wrapper {
       width: 100%;
-      padding-right: 40px;
-      padding-left: 40px;
+      padding-right: 30px;
+      padding-left: 30px;
     }
 
     section h3 {
@@ -306,6 +307,7 @@ footer {
       font-size: 13px;
       font-weight: normal;
       margin-bottom: 35px;
+      line-height: 1.4;
 
     }
 
@@ -320,7 +322,7 @@ footer {
     }
 
     section .photo-slider-block {
-      height: 60vw;
+      height: 66vw;
       padding-left: 0px;
     }
 
@@ -357,7 +359,7 @@ footer {
     }
 
     .prev, .next {
-      top: 30vw;
+      top: 0vw;
     }
 
     h5 {

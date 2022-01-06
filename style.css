@@ -231,33 +231,13 @@ section .background-image {
       position: absolute;
       width: 100%;
       text-align: left;
-      padding-left: 60px;
+      padding-left: 30px;
       line-height: 0.7;
       top: 50%;
       bottom: 50%;
       margin-top: 44vh;
     }
-    
-    /* Number text (1/3 etc)
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-    */
-    
-    /* Fading animation */
-    /* .fade {
-      opacity: 1;
-      -webkit-transition: opacity 1s ease-in-out;
-      -moz-transition: opacity 1s ease-in-out;
-      -o-transition: opacity 1s ease-in-out;
-      -ms-transition: opacity 1s ease-in-out;    
-      transition: opacity 1s ease-in-out;
-    } */
-
+  
     .horizontal-scroll {
       display: flex;
       flex-wrap: wrap;
@@ -763,12 +743,14 @@ section .background-image {
       }
 
       #myVideo {
-        position: fixed;
+        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        min-width: auto;
-        min-height: 100%;
+        min-width: 20%;
+        min-height: 20;
+        height: 20%;
+        overflow: hidden;  
       }
       
       section h1 {
@@ -854,6 +836,7 @@ section .background-image {
 
       .pseudo-section:first-of-type h3 {
         margin: 0 0 10px 0 ;
+        line-height: 1.3;
       }
 
       .pseudo-section .index-wrapper p {
@@ -879,6 +862,14 @@ section .background-image {
         font-weight: 300;
       }
 
+      .gradient-border {
+        background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0), rgb(255, 255, 255));
+      }
+
+      .scroll-wrap {
+        margin-bottom: 20px;
+      }
+
       section p {
         margin-top: 10px;
       }
@@ -897,8 +888,8 @@ section .background-image {
         background-image: none;
         background-color: white;
         min-height: 100vh;
-        padding-top: 120px;
-        padding-bottom: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         margin-bottom: 0vh; 
       }
 
@@ -933,8 +924,21 @@ section .background-image {
       }
 
       section:last-of-type .half-page:first-of-type {
-        padding-top: 20%;
+        padding-top: 10%;
       }  
+
+      .copyright-footer {
+        bottom: 0;
+      }
+
+      .prev img {
+        width: 0px;
+      }
+    
+      .next img {
+        width: 0px;
+      }
+      
       
     }
 
