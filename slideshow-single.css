@@ -1,10 +1,11 @@
 /* Slideshow container */
 .slideshow-container {
-    max-width: 100%;
-    position: relative;
     margin: 0 0 auto auto;
-    height: 82vh;
-    overflow: hidden;
+    height: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
   }
   
   /* Hide the images by default */
@@ -12,6 +13,14 @@
     opacity: 0;
     transition: opacity 0.25s;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: top;
+    justify-content: right;
+    margin: 0 0 0 auto;
+    height: 48vw;
+    
   }
 
   .mySlides.active {
@@ -20,9 +29,11 @@
 
 
   .mySlides img {
-    min-height: 100vh;
-    object-fit: cover;
+    object-fit: contain;
     object-position: 50% 50%;
+    margin: 0 0 0 auto;
+    display: block;
+    max-height: 44vw;
  }
 
  .mySlides1 {
@@ -63,22 +74,22 @@
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 0 4%;
+    width: 100%;
     color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: rgba(255, 0, 0, 0);
+    height: 83%;
   }
   
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+
   }
   
   .next img {
@@ -109,8 +120,8 @@
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
-    padding: 28px 36px 0px 12px;
-    position: sticky;
+    padding: 28px 36px 28px 12px;
+    position: relative;
     bottom: 0px;
     right: 20px;
     font-family: 'caslon Doric';

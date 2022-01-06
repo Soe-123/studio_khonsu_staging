@@ -176,11 +176,9 @@ section .small-line img{
 }
 
 section .photo-slider-block {
-    height: 85vh;
     width: 100vw;
     background-color: black;
-    padding-left: 23%;
-    overflow: hidden;
+    display: block;
 }
 
   h5 {
