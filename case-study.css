@@ -199,10 +199,10 @@ section .photo-slider-block {
   }
 
   section .photo-slider-block-2 {
-    height: 43.3vw;
+    height: 45vw;
     width: 100vw;
     background-color: black;
-    padding-left: 23%;
+    padding-left: 33%;
     overflow: hidden;
     position: relative;
 
