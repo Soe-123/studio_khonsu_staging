@@ -414,7 +414,7 @@ section .background-image {
       background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 255, 0), rgb(255, 255, 255));
       position: absolute;
       width: 100%;
-      z-index: 60;
+      z-index: 3;
     }
 
     .scroll-container {
@@ -938,18 +938,11 @@ section .background-image {
       .next img {
         width: 0px;
       }
-      
-      
+       
     }
 
     
-    
-    
-    
-    
-    
-    
-    
+
     @media screen and (max-height: 450px) {
       .overlay {overflow-y: auto;}
       .overlay a {font-size: 20px}
